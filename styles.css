@@ -1,0 +1,476 @@
+/* banner-1 end */
+
+#sectie-banner-1 .text-box h1 {
+  font-weight:bold;
+}
+
+ #sectie-banner-1 .element-2 h3{
+     font-weight:bold
+  }
+
+  #sectie-banner-1 .left-text h1 {
+     font-weight:bold;
+  }
+
+	#sectie-banner-1 .middle-banner h1 {
+     font-weight:bold;
+  }
+  
+.main-container {
+  color: #fff;
+}
+
+.element-2-mbl {
+  display: none;
+}
+
+.main-container {
+    width: 100%;
+    background-image: url(https://kickboxing-institute.nl/wp-content/uploads/2022/11/KI-Nijmegen-banner-achtergrond.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    background-position: 0% 100%;
+}
+
+.top-banner{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 240px;
+}
+
+.et-db #et-boc .et-l .text-box {
+  position: absolute;
+   -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-stroke: 1px black;
+  width: 500px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  line-height: 2em;
+  align-items: center;
+  height: 175px;
+  font-size: 32px!important;
+}
+
+.top-banner h1{
+  position: absolute;
+}
+
+
+.bottom-banner {
+  
+  width: 100%;
+}
+
+.element-1 {
+  width: 500px;
+}
+
+.bottom-banner {
+ display: flex;
+ padding-top: 20px;
+}
+
+.left-banner {
+  padding-right: 20px;
+  border-top: 5px solid #fff;
+  border-right: 5px solid #fff;
+  padding-top: 20px;
+}
+
+.element-2 {
+  align-items: center;
+  width: 275px;
+  height: 100%;
+  background-color: #10a474;
+  display: flex;
+}
+
+.left-text {
+  width: 35%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: 900;
+  font-size: 65px;
+  flex-direction: column;
+  padding-left: 20px;
+  display:none;
+}
+
+.right-text {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  line-height: 1.1em;
+  font-weight: 900;
+  font-size: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  /*flex-direction: column;*/
+}
+
+.middle-banner {
+  width: 65%;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 2.3em;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.ki-logo {
+  width: 200px;
+  height: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.button {
+  margin-top: 25px;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #ffdc04;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 60px;
+  padding-left: 60px;
+  border-radius: 15px;
+  border-color: rgba(255, 255, 255, 0);
+  transition:0.3s;
+}
+
+.button:hover {
+  background-color: #00966c;
+  transition:0.3s;
+  cursor: pointer;
+}
+
+.middle-banner h1 {
+text-shadow: 8px 8px 9px black;
+}
+
+/* media queries  */
+
+@media (min-width:2000px) {
+  
+  #sectie-banner-1 .left-text h1 {
+    font-size: 155px
+  }
+  
+  #sectie-banner-1 .element-2 {
+    width:400px;
+    }  
+  
+    #sectie-banner-1 .element-2 h3{
+    font-size:50px;
+  }
+  
+  
+#sectie-banner-1 .text-box h1
+  {
+  font-size:55px;  
+  } 
+  
+  
+  
+  .main-container {
+    background-position: 0% 85%;
+  }
+
+  .button {
+    font-size: 50px;
+  }
+
+  .middle-banner {
+    width: 100%;
+  }
+  
+  .middle-banner h1 {
+    font-size: 100px;
+    line-height: 1.1em;
+  }
+
+  .bottom-banner {
+    height: 530px;
+  }
+
+  .ki-logo {
+    width: 450px;
+  }
+}
+
+@media (max-width:2000px) {
+  #sectie-banner-1 .left-text h1 {
+    font-size: 120px
+  }
+  
+  #sectie-banner-1 .right-text h3 {
+    font-size: 35px
+  }
+  
+	#sectie-banner-1 .middle-banner h1 {
+    font-size: 65px
+  }
+
+  #sectie-banner-1 .top-banner .text-box h1 {
+    font-size: 55px
+  }
+}
+
+@media (max-width:1150px) {
+  
+  #sectie-banner-1 .middle-banner h1 {
+    font-size: 40px
+  }
+  
+  #sectie-banner-1 .top-banner .text-box h1 {
+    font-size: 40px;
+}
+  
+  .middle-banner {
+    font-size: 20px;
+  }
+   
+  .element-2 {
+    width: 260px;
+    height: 275px;
+  }
+
+  #sectie-banner-1 .left-text h1 {
+    font-size: 120px
+  }
+
+  .right-text {
+    font-size: 20px;
+  }
+
+  .element-1 {
+    width: 350px;
+  }
+
+   #sectie-banner-1 .text-box {
+    width: 350px!important;
+    height: 155px!important;
+  }
+}
+
+@media (min-width:760px) {
+  .nmr {
+    display: none;
+  }
+}
+
+@media (max-width:760px) {
+  .bottom-banner {
+    flex-direction: column-reverse;
+  }
+  
+  #sectie-banner-1 .right-text h3 {
+    font-size: 25px;
+	}
+
+  .top-banner {
+    margin-right: 0px;
+    justify-content: center;
+  }
+
+  .ki-logo {
+    width: 300px;
+  }
+
+  .middle-banner {
+    width: 100%;
+  }
+
+  .left-banner {
+    border-top: 0px solid #fff;
+    border-right: 0px solid #fff;
+  }
+
+  .button {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  .main-container {
+    background-position: 20%;
+  }
+
+  .element-2 {
+    width: 100%;
+    background-color: #10a475;
+    height: 75px;
+    justify-content: center;
+  }
+
+  .left-banner {
+  padding-right: 0px;
+  padding-top: 0px;
+  }
+
+  .left-text {
+    display: none;
+  }
+
+  .right-text {
+    width: 100%;
+  }
+}
+
+@media (max-width:460px) {
+  #sectie-banner-1 .middle-banner h1 {
+    font-size: 27px;
+}
+}
+
+@media (max-width:400px) {
+  .right-text {
+    font-size: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+
+  .ki-logo {
+    width: 225px;
+  }
+
+  .element-1 {
+    width: 250px;
+  }
+
+  .text-box {
+    font-size: 15px;
+    height: 70px!important;
+    width: 150px;
+  }
+
+  
+  #sectie-banner-1 .text-box {
+    width: 0px!important;
+}
+  .middle-banner, h1 {
+    font-size: 30px;
+    line-height: 1.2em;
+  }
+
+  .button {
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 10px;
+  }
+  
+  #sectie-banner-1 .top-banner .text-box h1 {
+    font-size: 30px;
+	}
+  
+  #sectie-banner-1 .text-box {
+    height: 118px!important;
+}
+   
+}
+
+@media (max-width:350px) {
+  
+  #sectie-banner-1 .top-banner .text-box h1 {
+    font-size: 18px;
+    -webkit-text-stroke-width: 0px;
+    height:85px;
+	}
+  
+.element-1 {
+    width: 180px;
+  }
+
+  .middle-banner, h1 {
+    font-size: 20px;
+  }
+
+  .text-box {
+    height: 70px;
+    -webkit-text-stroke-width: 0px;
+  }
+
+  .button {
+    font-size: 15px;
+  }
+
+  .ki-logo {
+    width: 175px;
+  }
+
+  .element-2 {
+    display: none;
+  }
+  
+  .element-2-mbl {
+    width: 100%;
+    height: auto;
+    background-color: #10a474;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+#sectie-banner-1 .element-2-mbl h3 {
+    line-height: 1em;
+    font-size: 20px;
+  	font-weight:bold;
+  }
+
+#sectie-banner-1 .left-text-mbl {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+  }
+
+ #sectie-banner-1 .left-text-mbl h1 {
+    font-size: 70px;
+    font-weight: bold;
+  }
+
+  .right-text-mbl {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+  }
+}
+
+@media (max-width:315px) {
+  #sectie-banner-1 .middle-banner h1 {
+    font-size: 22px;
+}
+}
+
+@media (max-width:270px) {
+  #sectie-banner-1 .middle-banner h1 {
+    font-size: 18px;
+}
+  
+  
+}
+
+/*html ki banner-2 end*/
