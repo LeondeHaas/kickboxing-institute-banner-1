@@ -4,4 +4,4 @@
 
 Made this with HTML/CSS in Wordpress. The banner is for the company https://kickboxing-institute.nl
 
-the banner is present on this page https://kickboxing-institute.nl/nijmegen/
+The banner is present on this page https://kickboxing-institute.nl/nijmegen/
